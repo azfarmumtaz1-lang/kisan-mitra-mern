@@ -1,0 +1,10 @@
+{
+  "name": "kisan-mitra-root",
+  "version": "1.0.0",
+  "description": "KisanMitra - MERN Smart Sowing & Pest AI Platform for Farmers",
+  "scripts": {
+    "install-all": "npm install --prefix server && npm install --prefix client",
+    "dev-server": "npm run dev --prefix server",
+    "dev-client": "npm run dev --prefix client"
+  }
+}
